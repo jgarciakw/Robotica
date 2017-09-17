@@ -1,0 +1,6 @@
+/home/jose/Escritorio/ejemplo1/CMakeFiles/install.dir
+/home/jose/Escritorio/ejemplo1/CMakeFiles/list_install_components.dir
+/home/jose/Escritorio/ejemplo1/CMakeFiles/ejemplo1.dir
+/home/jose/Escritorio/ejemplo1/CMakeFiles/install/local.dir
+/home/jose/Escritorio/ejemplo1/CMakeFiles/rebuild_cache.dir
+/home/jose/Escritorio/ejemplo1/CMakeFiles/edit_cache.dir

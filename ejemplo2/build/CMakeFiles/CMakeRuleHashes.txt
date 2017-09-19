@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+f960ef28037f2698d54e9111d7356a3c moc_ejemplo1.cxx
+9ca26d6c0e842bc52cf815228a9d34eb ui_counterDlg.h

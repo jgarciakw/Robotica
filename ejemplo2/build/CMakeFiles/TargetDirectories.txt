@@ -1,0 +1,7 @@
+/home/jose/Documentos/Robotica/ejemplo2/build/CMakeFiles/install.dir
+/home/jose/Documentos/Robotica/ejemplo2/build/CMakeFiles/list_install_components.dir
+/home/jose/Documentos/Robotica/ejemplo2/build/CMakeFiles/rebuild_cache.dir
+/home/jose/Documentos/Robotica/ejemplo2/build/CMakeFiles/ejemplo1.dir
+/home/jose/Documentos/Robotica/ejemplo2/build/CMakeFiles/install/local.dir
+/home/jose/Documentos/Robotica/ejemplo2/build/CMakeFiles/install/strip.dir
+/home/jose/Documentos/Robotica/ejemplo2/build/CMakeFiles/edit_cache.dir

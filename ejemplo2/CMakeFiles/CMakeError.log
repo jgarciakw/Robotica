@@ -1,0 +1,297 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fe017/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fe017.dir/build.make CMakeFiles/cmTC_fe017.dir/build
+make[1]: se entra en el directorio '/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fe017.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_fe017.dir/CheckSymbolExists.cxx.o -c /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_fe017.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_fe017.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_fe017.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_fe017/fast'
+make: *** [cmTC_fe017/fast] Error 2
+
+File /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_35e54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_35e54.dir/build.make CMakeFiles/cmTC_35e54.dir/build
+make[1]: se entra en el directorio '/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35e54.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_35e54.dir/CheckSymbolExists.cxx.o -c /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_35e54.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_35e54.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_35e54.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_35e54/fast'
+make: *** [cmTC_35e54/fast] Error 2
+
+File /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ccc4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccc4d.dir/build.make CMakeFiles/cmTC_ccc4d.dir/build
+make[1]: se entra en el directorio '/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ccc4d.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_ccc4d.dir/CheckSymbolExists.cxx.o -c /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_ccc4d.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_ccc4d.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_ccc4d.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_ccc4d/fast'
+make: *** [cmTC_ccc4d/fast] Error 2
+
+File /home/kampitos/Descargas/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_702ae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_702ae.dir/build.make CMakeFiles/cmTC_702ae.dir/build
+make[1]: se entra en el directorio '/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_702ae.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_702ae.dir/CheckSymbolExists.cxx.o -c /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_702ae.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_702ae.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_702ae.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_702ae/fast'
+make: *** [cmTC_702ae/fast] Error 2
+
+File /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4105/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4105.dir/build.make CMakeFiles/cmTC_e4105.dir/build
+make[1]: se entra en el directorio '/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4105.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_e4105.dir/CheckSymbolExists.cxx.o -c /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_e4105.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_e4105.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_e4105.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_e4105/fast'
+make: *** [cmTC_e4105/fast] Error 2
+
+File /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60439/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60439.dir/build.make CMakeFiles/cmTC_60439.dir/build
+make[1]: se entra en el directorio '/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60439.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_60439.dir/CheckSymbolExists.cxx.o -c /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_60439.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_60439.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_60439.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_60439/fast'
+make: *** [cmTC_60439/fast] Error 2
+
+File /home/jose/Escritorio/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50ae5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50ae5.dir/build.make CMakeFiles/cmTC_50ae5.dir/build
+make[1]: se entra en el directorio '/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50ae5.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_50ae5.dir/CheckSymbolExists.cxx.o -c /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+CMakeFiles/cmTC_50ae5.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_50ae5.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_50ae5.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_50ae5/fast'
+make: *** [cmTC_50ae5/fast] Error 2
+
+File /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c527/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c527.dir/build.make CMakeFiles/cmTC_4c527.dir/build
+make[1]: se entra en el directorio '/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4c527.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_4c527.dir/CheckSymbolExists.cxx.o -c /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+CMakeFiles/cmTC_4c527.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_4c527.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_4c527.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_4c527/fast'
+make: *** [cmTC_4c527/fast] Error 2
+
+File /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71e19/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71e19.dir/build.make CMakeFiles/cmTC_71e19.dir/build
+make[1]: se entra en el directorio '/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_71e19.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_71e19.dir/CheckSymbolExists.cxx.o -c /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+CMakeFiles/cmTC_71e19.dir/build.make:65: fallo en las instrucciones para el objetivo 'CMakeFiles/cmTC_71e19.dir/CheckSymbolExists.cxx.o'
+make[1]: *** [CMakeFiles/cmTC_71e19.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio '/home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp'
+Makefile:126: fallo en las instrucciones para el objetivo 'cmTC_71e19/fast'
+make: *** [cmTC_71e19/fast] Error 2
+
+File /home/jose/Documentos/Robotica/ejemplo1/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

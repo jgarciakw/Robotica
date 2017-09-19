@@ -14,9 +14,7 @@ ejemplo1::ejemplo1(): Ui_Counter()
   hilo = new Hilo();
   hilo->start();
   
-  
   connect(hilo, SIGNAL(SenalHilo()), this, SLOT(doContador()));
-  
   
 }
 
@@ -27,12 +25,12 @@ ejemplo1::~ejemplo1()
 
 void ejemplo1::doButton()
 {
-  if (hilo->isRunning()){
-    hilo->terminate();
+  if (hilo->estaContando()){
+    hilo->parar();
     button->setText("Start");
   }
   else{
-    hilo->start();
+    hilo->arrancar();
     button->setText("Stop");
   }
 }

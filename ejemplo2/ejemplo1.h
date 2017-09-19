@@ -9,12 +9,31 @@
 class Hilo : public QThread
 {
     Q_OBJECT
+    
+    bool contando = true;
+    
     void run() {
       while(true){
 	sleep(1);
-        emit SenalHilo();
+	if (contando ==true){
+	  emit SenalHilo();
+	}
       }
     }
+    
+public:
+    void parar(){
+      contando = false;
+    }
+    
+    void arrancar(){
+      contando = true;
+    }
+    
+    bool estaContando(){
+      return contando;
+    }
+    
 signals:
     void SenalHilo();
 };
